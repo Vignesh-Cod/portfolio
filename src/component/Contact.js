@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -24,7 +22,7 @@ const Contact = () => {
 
         const welcomeTemplateParams = {
           user_name: name,
-          user_email: email,
+          user_email: email,  // Send the welcome email to the user's email address
         };
 
         emailjs.send('service_jal34gv', 'template_w1xfg0b', welcomeTemplateParams, 'coomUaIYzf24qOZEL')
