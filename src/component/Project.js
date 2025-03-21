@@ -9,24 +9,10 @@ export default function Project() {
     const projects = [
         {
             image: websiteImag,
-            title: "Ecommerce Website",
-            description: "A Ecommerce website built with MERN Stack.",
-            liveLink: "https://example-live-site1.com",
-            sourceCode: "https://github.com/example-repo1"
-        },
-        {
-            image: websiteImag2,
-            title: "Food Ecommerce",
-            description: "Food Ecommerce website like Swiggy, built with Angular & .Net.",
-            liveLink: "https://example-live-site2.com",
-            sourceCode: "https://github.com/example-repo2"
-        },
-        {
-            image: websiteImag3,
-            title: "Blog Website",
-            description: "Basic Blog Website built with Next.js and MongoDB.",
-            liveLink: "https://example-live-site3.com",
-            sourceCode: "https://github.com/example-repo3"
+            title: "Chat App",
+            description: "A chat app bulid with React.js and Firebase host with vercel.com",
+            liveLink: "https://chat-app-two-brown-92.vercel.app/",
+            sourceCode: "https://github.com/Vignesh-Cod/Chat-App"
         }
     ];
 
