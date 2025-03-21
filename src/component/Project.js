@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import websiteImag from '../assets/ecommerce-websites.jpg';
+import websiteImag from '../assets/Screenshot 2025-03-21 072014.png';
 import websiteImag2 from '../assets/food-ecommerce.jpg';
 import websiteImag3 from '../assets/website-blog.jpg';
 
