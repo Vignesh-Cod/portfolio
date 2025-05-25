@@ -1,5 +1,5 @@
 import ResumeImg from '../assets/resume.jpg';
-import Vignesh_Venkat_Resume from '../assets/Vignesh_Venkat_Resume.pdf';
+import Vignesh_Venkat_Resume from '../assets/VigneshVenkat-Resume.pdf';
 
 
 export default  function Resume (){
