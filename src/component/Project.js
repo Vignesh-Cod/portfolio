@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import websiteImag from '../assets/Screenshot 2025-03-21 072014.png';
-import websiteImag2 from '../assets/food-ecommerce.jpg';
-import websiteImag3 from '../assets/website-blog.jpg';
+import websiteImag from '../assets/Chat-app.png';
+import websiteImag2 from '../assets/E-commerce.png';
 
 export default function Project() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,7 +11,14 @@ export default function Project() {
             title: "Chat App",
             description: "A chat app bulid with React.js and Firebase host with vercel.com",
             liveLink: "https://chat-app-two-brown-92.vercel.app/",
-            sourceCode: "https://github.com/Vignesh-Cod/Chat-App"
+            sourceCode: "https://github.com/Vignesh-Cod/Chat-App.git"
+        },
+        {
+            image: websiteImag2,
+            title: "E-commerce Website",
+            description: "A chat app bulid with MERN Stack and  host with Render.com",
+            liveLink: "https://mern-ecommerce-1-3c68.onrender.com",
+            sourceCode: "https://github.com/Vignesh-Cod/MERN-Ecommerce.git"
         }
     ];
 
